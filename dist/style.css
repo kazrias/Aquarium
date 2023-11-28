@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url(fonts/Montserrat-Regular..woff2);
+  src: url(fonts/Montserrat-Regular.woff2) format('woff2');
 }
 
 body {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  font-family: 'Montserrat-Regular';
+  font-size: 50px;
+  background-image: url(assets/picture-en3dnh2zi84sgt3t.jpg);
 }
