@@ -40,3 +40,9 @@ function creatingLogo() {
   `;
   return div;
 }
+
+export const createHeaderSection = () => {
+  header.insertAdjacentHTML("afterbegin", creatingLogo());
+  header.appendChild(createNavBar({ element: "nav", content: "ul" }));
+  header.appendChild(createHeader({ element: "div" }));
+};
