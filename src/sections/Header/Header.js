@@ -1,13 +1,6 @@
 const header = document.querySelector(".header");
 
-function createHeader({ element, content }) {
-  const header = document.createElement(element);
 
-  header.appendChild(
-    creatingLogo({ element: "div", content: "img" }),
-    createNavBar({ element: "nav", content: "ul" })
-  );
-}
 function createNavBar({ element, content }) {
   const navBar = {
     Home: "#header",
@@ -44,5 +37,5 @@ function creatingLogo() {
 export const createHeaderSection = () => {
   header.insertAdjacentHTML("afterbegin", creatingLogo());
   header.appendChild(createNavBar({ element: "nav", content: "ul" }));
-  header.appendChild(createHeader({ element: "div" }));
+
 };
