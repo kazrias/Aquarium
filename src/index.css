@@ -3,14 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-@font-face {
-  font-family: 'Montserrat-Regular';
-  src: url(./fonts/Montserrat-Regular.woff2) format('woff2');
-}
-
-body {
-  font-family: 'Montserrat-Regular';
-  font-size: 50px;
-  background-image: url(./img/picture-en3dnh2zi84sgt3t.jpg);
-}
