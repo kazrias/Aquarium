@@ -30,3 +30,13 @@ function createNavBar({ element, content }) {
   }
   return nav;
 }
+
+function creatingLogo() {
+  const div = `
+  <div class="logo">
+            <img src="https://i.pinimg.com/736x/44/96/a9/4496a981ee1481c4cf8395ac8811ebef.jpg">
+            Aquarium park 
+        </div>
+  `;
+  return div;
+}
