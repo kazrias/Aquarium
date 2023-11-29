@@ -1,4 +1,4 @@
 import "./index.html";
 import "./index.css";
-import { createProductSection } from './sections/Product'
-createProductSection()
+import { createHeaderSection } from './sections/Header/Header.js'
+createHeaderSection()
