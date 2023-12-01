@@ -4,7 +4,10 @@ export const About = () => {
 
   const title = document.createElement('h2');
   title.classList.add('about-title');
-  title.innerText = 'About Us';
+  const span = document.createElement('span')
+  span.innerText = 'About Us'
+  title.append(span);
+
 
   const info = document.createElement('div');
   info.classList.add('about-info');

@@ -1,16 +1,49 @@
 .about {
   padding: 50px 0;
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 13%, rgba(129,205,255,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 13%, rgba(129, 205, 255, 1) 100%);
 }
 
 .about-title {
   font-family: 'Montserrat';
   text-align: center;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 48px;
   margin-bottom: 25px;
   color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.about-title span {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.about-title span::before,
+.about-title span::after {
+  content: '';
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: drop-shadow(4px -2px 4px rgb(149, 247, 247));
+}
+
+.about-title span::before {
+  background-image: url('../../img/goldfish1.png');
+  left: -70px;
+  top: -70px;
+}
+
+.about-title span::after {
+  background-image: url('../../img/fish2.png');
+  right: -75px;
+  top: -15px;
 }
 
 .about-info {
