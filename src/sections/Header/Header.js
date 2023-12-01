@@ -5,7 +5,7 @@ export const Header = () => {
 
   function createNavBar({ element, content }) {
     const navBar = {
-      Home: "#header",
+      Home: "#home",
       Products: "#products",
       Contacts: "#contacts",
       "About Us": "#aboutUs",

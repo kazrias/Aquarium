@@ -1,7 +1,6 @@
 import './About.css'
 export const About = () => {
   const section = document.querySelector('.about>.container');
-  section.id='aboutUs'
 
   const title = document.createElement('h2');
   title.classList.add('about-title');

@@ -7,7 +7,6 @@ const titles = ['Freshwater Snails', 'Freshwater Shrimp', 'Freshwater fish', 'fr
 
 export const ProductList = async () => {
   const section = document.querySelector('.product>.container');
-  section.id='products'
   const productList = document.createElement('div');
   productList.classList.add('product-list');
   const categories = document.createElement('h2')
