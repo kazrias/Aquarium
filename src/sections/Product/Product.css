@@ -1,5 +1,7 @@
 .product {
-  padding: 20px 0;
+  padding: 25px 0;
+  background: rgb(110, 182, 230);
+  background: linear-gradient(180deg, rgba(110, 182, 230, 1) 60%, rgba(255, 255, 255, 1) 100%);
 }
 
 .product-list {
@@ -13,7 +15,7 @@
   font-family: 'Montserrat';
   font-size: 48px;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 38px;
   position: relative;
   display: flex;
   justify-content: center;

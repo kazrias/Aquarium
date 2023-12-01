@@ -1,0 +1,25 @@
+.about {
+  padding: 50px 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 13%, rgba(129,205,255,1) 100%);
+}
+
+.about-title {
+  font-family: 'Montserrat';
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-info__text {
+  font-family: 'Poppins';
+  font-size: 18px;
+}
