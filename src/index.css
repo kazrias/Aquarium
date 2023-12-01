@@ -9,3 +9,30 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('./fonts/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('./fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nova Square';
+  src: url('./fonts/NovaSquare.woff2') format('woff2'),
+    url('./fonts/NovaSquare.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
