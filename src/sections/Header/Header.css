@@ -25,7 +25,7 @@ header {
     padding: 3px;
     width: 50px;
   }
-  img:hover {
+  .header img:hover {
     box-shadow: 0 0 2px 1px rgba(30, 80, 96, 0.5);
   }
   .list {

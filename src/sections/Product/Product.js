@@ -1,6 +1,7 @@
 const imgs = ['freshwaterShrimp', 'freshwaterFish', 'freshwaterSnails', 'freshwaterCrayFish', 'freshwaterPlants', 'nanoFish', 'freshwaterCrabs', 'AquariumParkFood'];
 const titles = ['Freshwater Shrimp', 'Freshwater fish', 'Freshwater Snails', 'freshwater crayfish', 'freshwater plants', 'nano fish', 'freshwater crabs', 'aquarium park`s brand foods and supplies'];
 const imgContext = require.context('../../img/', false, /\.(jpe?g|png|webp|gif|svg)$/i);
+
 export const ProductList = async () => {
   const section = document.querySelector('.product>.container');
   const productList = document.createElement('div');
@@ -10,9 +11,7 @@ export const ProductList = async () => {
     const productItem = document.createElement('div');
     productItem.classList.add('product-list__item');
     const img = document.createElement('img');
-    // const imgSrc = await import(`../../img/${imgs[i]}.webp`);
     img.src = imgContext(`./${imgs[i]}.webp`);
-    console.log(imgContext);
     productItem.append(img);
     productList.append(productItem);
   }
