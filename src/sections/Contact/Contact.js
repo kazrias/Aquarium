@@ -2,11 +2,13 @@ import './Contact.css';
 
 export const Contact = () => {
     const contactForm = document.querySelector(".contact>.container");
-    const subContainer = document.createElement("div");
+    const subContainer = document.createElement("form");
     contactForm.classList.add("contact-form");
     subContainer.classList.add("subcontainer");
     contactForm.appendChild(subContainer);
-    
+    document.querySelector('.subcontainer').addEventListener('submit', function (event) {
+        event.preventDefault(); 
+    });
     //ul.setAttribute("class", "name");
 
     const h1 = document.createElement("h1");
