@@ -1,3 +1,5 @@
+import './Aquarium.css'
+const imgContext=require.context('../../img/aquarium',false,/\.(jpe?g|png|webp|gif|svg|mp4)$/i)
 export const Aquarium = () => {
     const mainDiv = document.querySelector(".aquarium");
 
@@ -17,4 +19,33 @@ export const Aquarium = () => {
             </div>
     `;
 
+    const canvas = document.getElementById("canvas");
+    const context = canvas.getContext("2d");
+    const bntForBlueFish = document.getElementById("blueFish");
+    const bntForRedFish = document.getElementById("redFish");
+    const bntForOrangeFish = document.getElementById("orangeFish");
+
+    const date = {
+        xDelta: 100,
+        fishes: []
+    }
+
+    function update() {
+        date.fishes.forEach(function (fish) {
+            fish.update();
+        });
+    }
+    function draw() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        date.fishes.forEach(function (fish) {
+            fish.draw();
+        });
+    }
+
+    function loop() {
+        requestAnimationFrame(loop);
+        update();
+        draw();
+    }
+    loop();
 }
