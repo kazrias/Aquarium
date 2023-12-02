@@ -1,12 +1,14 @@
 import './Aquarium.css'
-const imgContext=require.context('../../img/aquarium',false,/\.(jpe?g|png|webp|gif|svg|mp4)$/i)
+
+const imgContext=require.context('../../img/aquarium',false,/\.(jpe?g|png|webp|gif|svg|)$/i);
+
 export const Aquarium = () => {
     const mainDiv = document.querySelector(".aquarium");
 
     mainDiv.innerHTML += `
             <div id="video-container">
                 <video autoplay muted loop id="video-bg">
-                    <source src="${imgContext('./Background.mp4')}" type="video/mp4">
+                    <source src="" type="video/mp4">
                 </video>
                 <div id="content">
                     <canvas id="canvas"></canvas>
