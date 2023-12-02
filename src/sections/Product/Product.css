@@ -19,7 +19,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #000;
 }
 
 .product-list__item {

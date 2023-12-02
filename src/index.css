@@ -51,7 +51,6 @@
 body {
   background-color: #6eb6e6;
   animation: fadeIn 1s ease-in-out;
-  min-height: 300vh;
 }
 main{
   padding-top: 60px;

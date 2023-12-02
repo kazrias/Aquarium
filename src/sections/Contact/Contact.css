@@ -1,3 +1,9 @@
+.contact {
+    padding: 100px 0;
+    background: rgb(0, 43, 57);
+    background: linear-gradient(0deg, rgba(0, 43, 57, 1) 13%, rgba(129, 205, 255, 1) 100%);
+}
+
 .contact-form {
     justify-content: center;
     align-items: center;
@@ -18,6 +24,7 @@
 .form-group {
     margin-bottom: 20px;
 }
+
 label {
     font-family: 'Poppins';
     font-size: 18px;
@@ -27,7 +34,9 @@ label {
     margin-left: 5px;
     color: #555;
 }
-input, textarea {
+
+input,
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -36,6 +45,7 @@ input, textarea {
     box-sizing: border-box;
     resize: vertical;
 }
+
 .contact-button {
     display: block;
     margin: auto;
@@ -48,6 +58,7 @@ input, textarea {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
     cursor: pointer;
 }
+
 .contact-button:hover {
     background: #064273;
 }
@@ -61,4 +72,5 @@ input, textarea {
     display: flex;
     justify-content: center;
     color: #064273;
+    
 }
