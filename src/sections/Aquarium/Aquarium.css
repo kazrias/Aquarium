@@ -59,3 +59,15 @@ canvas{
     height: 30px;
 }
 
+.btn {
+    border-radius: 10px;
+    box-shadow:  inset 10px 5px 5px rgb(199, 191, 191), -0.3em 0 .4em rgb(26, 26, 7);
+}  
+
+
+ .btn:hover {
+    background-color: rgba(17, 6, 3, 0.89);
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: inset 10px 5px 5px rgb(77, 72, 72), -0.3em 0 .4em rgb(233, 233, 225);
+}
