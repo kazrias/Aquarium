@@ -1,0 +1,73 @@
+
+
+.aquarium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background-color: #6eb6e6;
+}
+
+canvas{
+    margin-left: 5%;
+    width: 90%;
+    height: 600px;
+}
+
+#video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1450px;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: antiquewhite; */
+}
+
+#video-bg {
+    margin-top: 20px;
+    margin-left: 10%;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 600px;
+    border-bottom: 2px solid gray;
+
+}
+
+#content {
+    margin-top: 10px;
+    padding: 8px;
+    border: 2px solid black;
+    position: relative;
+    z-index: 1;
+    max-width: 1450px;
+    width: 80%;
+    height: 100%;
+    color: #fff;
+}
+
+#container-buttons {
+    padding-top: 15px;
+}
+
+.fish-img {
+    width: 50px;
+    height: 30px;
+}
+
+.btn {
+    border-radius: 10px;
+    box-shadow:  inset 10px 5px 5px rgb(199, 191, 191), -0.3em 0 .4em rgb(26, 26, 7);
+}  
+
+
+ .btn:hover {
+    background-color: rgba(17, 6, 3, 0.89);
+    border: 2px solid white;
+    cursor: pointer;
+    box-shadow: inset 10px 5px 5px rgb(77, 72, 72), -0.3em 0 .4em rgb(233, 233, 225);
+}
