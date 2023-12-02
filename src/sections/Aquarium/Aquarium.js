@@ -7,9 +7,9 @@ export const Aquarium = () => {
 
     mainDiv.innerHTML += `
             <div id="video-container">
-                <video autoplay muted loop id="video-bg">
-                    <source src="" type="video/mp4">
-                </video>
+                <div id="video-bg">
+                <img src="${imgContext('./bgGif.gif')}"/>
+                </div>
                 <div id="content">
                     <canvas id="canvas"></canvas>
                     <div id="container-buttons">
