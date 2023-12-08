@@ -86,6 +86,15 @@ module.exports = {
             ]
           }
         }
+      },
+      {
+        test: /\.(mp4)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[name].[hash].[ext]"
+          }
+        }
       }
     ],
   },
