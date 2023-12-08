@@ -37,6 +37,9 @@ canvas{
     border-bottom: 2px solid gray;
 
 }
+#video-bg img{
+    width: 100%;
+}
 
 #content {
     margin-top: 10px;
