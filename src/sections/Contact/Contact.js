@@ -24,8 +24,9 @@ export const Contact = () => {
         formGroup[i].classList.add("form-group");
         subContainer.appendChild(formGroup[i]);
 
-        label[i] = document.createElement("label");
-        label[i].setAttribute("for", "");
+        label[i] = document.createElement("p");
+        label[i].classList.add('label');
+
         formGroup[i].appendChild(label[i]);
 
         if (i < 3) {
